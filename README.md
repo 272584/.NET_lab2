@@ -1,22 +1,8 @@
 # .NET_lab2
+# Projekt aplikacji bazodanowej .Net
 
-# Sprawozdanie z laboratorium nr 2
-## Platformy Programistyczne .NET i Java
-
-**Autor:**
-
-**Data:** 8 kwietnia 2025
-
-**Temat:** Projekt aplikacji bazodanowej .NET
-
-**Prowadzący:** Dr inż. Radosław Idzikowski, mgr inż. Michał Jaroszczuk
-
----
-
-## Cel laboratorium
-Celem laboratorium było zapoznanie się z podstawami projektowania aplikacji bazodanowych w technologii .NET oraz wykorzystanie interfejsu API do pobierania, deserializacji i przechowywania danych.
-
----
+## Opis projektu
+Projekt ten dotyczy podstaw projektowania aplikacji bazodanowych w technologii .NET oraz wykorzystania interfejsu API do pobierania, deserializacji i przechowywania danych.
 
 ## Opis wykonanych zadań
 
@@ -44,7 +30,6 @@ W drugim zadaniu program został rozszerzony o funkcjonalność bazodanową z wy
 - `Temp` - temperatura w stopniach Celsjusza
 - `Description` - opis warunków pogodowych
 
----
 
 ## Kluczowe klasy i metody:
 
@@ -56,7 +41,6 @@ W drugim zadaniu program został rozszerzony o funkcjonalność bazodanową z wy
   - Klasa `WeatherInfo` - reprezentuje informacje pogodowe w bazie danych.
   - Klasa `ApiResponse` - model danych zwracany przez API.
 
----
 
 ## Użycie aplikacji
 1. Użytkownik podaje nazwę miasta.
@@ -64,7 +48,6 @@ W drugim zadaniu program został rozszerzony o funkcjonalność bazodanową z wy
    - Jeśli dane są dostępne, wyświetlane są bezpośrednio z bazy.
    - Jeśli brak danych, aplikacja pobiera je z API, wyświetla użytkownikowi i zapisuje w bazie.
 
----
 
 ## Technologie
 - .NET 8.0
@@ -72,4 +55,3 @@ W drugim zadaniu program został rozszerzony o funkcjonalność bazodanową z wy
 - SQLite
 - OpenWeather API
 
----
